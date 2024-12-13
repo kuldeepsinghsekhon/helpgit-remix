@@ -1,0 +1,29 @@
+name = "helpgit-remix"
+compatibility_date = "2024-01-01"
+
+# Configure your build output directory
+[build]
+command = "npm run build"
+output_directory = "public/build/client"
+
+[site]
+bucket = "./public"
+
+# Environment variables
+[vars]
+NODE_ENV = "production"
+
+# If you're using a database or other services, add their bindings here
+# [[ d1_databases ]]
+# binding = "DB"
+# database_name = "helpgit-d1-db"
+# database_id = "c3a98647-009a-4e9c-a7c1-6d03609b42f4"
+
+# KV namespace binding (if needed)
+# [[ kv_namespaces ]]
+# binding = "MY_KV"
+# id = "your-kv-namespace-id"
+
+# Development configuration
+[env.development]
+name = "helpgit-remix" 
