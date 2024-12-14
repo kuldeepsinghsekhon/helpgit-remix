@@ -16,6 +16,23 @@ export default {
           "Noto Color Emoji",
         ],
       },
+      typography: {
+        DEFAULT: {
+          css: {
+            'table': {
+              borderCollapse: 'collapse',
+              width: '100%',
+            },
+            'td, th': {
+              border: '1px solid #e5e7eb',
+              padding: '0.5rem',
+            },
+            'th': {
+              backgroundColor: '#f9fafb',
+            },
+          },
+        },
+      },
     },
   },
   plugins: [
